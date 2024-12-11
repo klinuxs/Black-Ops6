@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dep%27s">
+      <UniqueIdentifier>{3e6fb952-432f-4181-9eb4-0819826fd1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\Kmbox">
+      <UniqueIdentifier>{d4a11d7a-945a-4307-82ec-0730730de71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\Imgui">
+      <UniqueIdentifier>{98212224-78a9-4076-9b8a-b085810795fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\DMALibrary">
+      <UniqueIdentifier>{1f630cda-bbb3-4c09-b8e1-558e4463fee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\DMALibrary\Dlls">
+      <UniqueIdentifier>{ef36cd26-3a24-498f-b3cb-a4f813120e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\DMALibrary\Libs">
+      <UniqueIdentifier>{b2b01f56-bfe0-45cb-8c84-81f280fe4661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay/Menu">
+      <UniqueIdentifier>{47a97466-8a91-40fe-b36d-1d9a5a7bf627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{40f5a182-5cd7-4bd0-8b8b-bc8abebf466b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KmBox\my_enc.cpp">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </ClCompile>
+    <ClCompile Include="KmBox\kmboxNet.cpp">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\DMALibrary.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\pch.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\Registry.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\Shellcode.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\InputManager.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\Memory.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\Menu.cpp">
+      <Filter>Source Files\Overlay/Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\Config.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="blops6\Addresses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blops6\blackops6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blops6\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KmBox\HidTable.h">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\kmboxNet.h">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\my_enc.h">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx11.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\InputManager.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Dep%27s\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\libs\vmmdll.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\framework.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\libs\leechcore.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\Memory.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\pch.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\Registry.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\Shellcode.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\nt\structs.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="OurProgram\Menu.h">
+      <Filter>Source Files\Overlay/Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="OurProgram\Config.h">
+      <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\KmboxB.h">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blops6\Addresses.h" />
+    <ClInclude Include="blops6\blackops6.h" />
+    <ClInclude Include="blops6\Globals.h" />
+    <ClInclude Include="blops6\Helper.h" />
+    <ClInclude Include="blops6\Types.h" />
+    <ClInclude Include="curl\include\curl\curl.h" />
+    <ClInclude Include="curl\include\curl\curlver.h" />
+    <ClInclude Include="curl\include\curl\easy.h" />
+    <ClInclude Include="curl\include\curl\header.h" />
+    <ClInclude Include="curl\include\curl\mprintf.h" />
+    <ClInclude Include="curl\include\curl\multi.h" />
+    <ClInclude Include="curl\include\curl\options.h" />
+    <ClInclude Include="curl\include\curl\stdcheaders.h" />
+    <ClInclude Include="curl\include\curl\system.h" />
+    <ClInclude Include="curl\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="curl\include\curl\urlapi.h" />
+    <ClInclude Include="curl\include\curl\websockets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DMALibrary\libs\DMALibrary.lib">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </Library>
+    <Library Include="DMALibrary\libs\vmm.lib">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </Library>
+    <Library Include="DMALibrary\libs\leechcore.lib">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </Library>
+    <Library Include="curl\lib\libcurl.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DMALibrary\dbghelp.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\FTD3XX.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\leechcore.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\vmm.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\symsrv.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\libs\DMALibrary.pdb">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </None>
+    <None Include="Compiled\config.cfg">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </None>
+    <None Include=".gitattributes">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\dbghelp.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\FTD3XX.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\leechcore.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\symsrv.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\vmm.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\info.db">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="KmBox\kmbox_b_pro_en.docx">
+      <Filter>Dep%27s\Kmbox</Filter>
+    </None>
+  </ItemGroup>
+</Project>
